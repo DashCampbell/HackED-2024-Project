@@ -21,9 +21,9 @@ export default function Home() {
         )}
       </ul>
       <div className='AddReceiptBtn'>
-        <a href="">
+        <Link href={{ pathname: 'add_receipt' }}>
           <p>Add Receipt</p>
-        </a>
+        </Link>
       </div>
     </main>
   )
