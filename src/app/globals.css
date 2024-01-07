@@ -18,9 +18,6 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 header {
@@ -82,3 +79,5 @@ header .profileLink {
 #receipt_list .AddReceiptBtn p:hover {
   padding: 18px 10px;
 }
+
+#receipt_details ul {}

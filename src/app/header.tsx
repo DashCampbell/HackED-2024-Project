@@ -6,10 +6,10 @@ export default function Header() {
             <nav>
                 <ul>
                     <li className='homeLink'>
-                        <a href="">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li className='profileLink'>
-                        <a href="">
+                        <a href="/">
                             <Image
                                 src="/profile_logo.png"
                                 alt='User Profile'

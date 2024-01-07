@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       <ul>
         {[...Array(10)].map((x, i) => (
           <li>
-            <a href="">
+            <Link href={{ pathname: 'receipt_details', query: { id: i } }} key={i}>
               <Image
                 src="/stock_receipt.jpg"
                 width={320}
@@ -14,7 +15,7 @@ export default function Home() {
                 alt='Receipt'
                 key={i}
               />
-            </a>
+            </Link>
           </li>
         )
         )}
