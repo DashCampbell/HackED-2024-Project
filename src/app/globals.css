@@ -18,10 +18,67 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+header {
+  background-color: beige;
+}
+
+header::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header .homeLink {
+  float: left;
+  padding: 15px 10px;
+}
+
+header .profileLink {
+  float: right;
+}
+
+#receipt_list ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 15px;
+}
+
+#receipt_list ul li {
+  transform: scale(0.97);
+  border: 5px solid black;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+#receipt_list ul li:hover {
+  transform: scale(1.02);
+  border-color: black;
+}
+
+#receipt_list .AddReceiptBtn {
+  background-color: orange;
+  color: white;
+}
+
+#receipt_list .AddReceiptBtn:hover {
+  background-color: rgb(0, 168, 0);
+}
+
+#receipt_list .AddReceiptBtn p {
+  padding: 16px 8px;
+  border: 2px solid;
+  border-radius: 20%;
+}
+
+#receipt_list .AddReceiptBtn p:hover {
+  padding: 18px 10px;
 }
