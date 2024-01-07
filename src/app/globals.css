@@ -80,4 +80,17 @@ header .profileLink {
   padding: 18px 10px;
 }
 
-#receipt_details ul {}
+#receipt_details {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  background-image: url('/receipt_background.jpg');
+}
+
+#receipt_details h2,
+#receipt_details h3 {
+  color: rgb(69, 69, 69);
+  font-weight: bold;
+  font-size: x-large;
+  font-family: 'cursive';
+}
