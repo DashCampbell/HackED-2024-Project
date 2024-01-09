@@ -1,3 +1,13 @@
+# HackED 2024 Receipt Scanner
+A rough draft of a website for scanning receipts. The draft was made in four hours and I was learning Next.js while I was making the site, so the site is very unfinished. There are three pages:
+- The homepage, it displays a list of scanned receipts.
+- A page to render the details of a receipt.
+- A page to add a new receipt. The user fills out a form describing the receipt's details, and then submits it. 
+
+## Possible Improvements
+- A cohesive visual design.
+- Adding a backend so that receipts can be stored in a database.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
